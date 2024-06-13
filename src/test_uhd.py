@@ -23,7 +23,7 @@ parser = argparse.ArgumentParser(description='Image Deraining using Restormer')
 parser.add_argument('--input_dir', default='/data/wangliyan/dataset/UHD/', type=str, help='Directory of validation images')
 parser.add_argument('--input_normal', default='/data/wangliyan/dataset/UHD/', type=str, help='Directory of validation images')
 parser.add_argument('--result_dir', default='./results_UHDLL/', type=str, help='Directory for results')
-parser.add_argument('--weights', default='/data/wangliyan/code/mycode/UHD/C2F-DFT-main/experiments/UHDIR_UHD-LL_6w/models/net_g_latest.pth', type=str, help='Path to weights')
+parser.add_argument('--weights', default='./pretrained_models/net_g_latest.pth', type=str, help='Path to weights')
 
 args = parser.parse_args()
 
