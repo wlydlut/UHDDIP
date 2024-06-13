@@ -87,7 +87,7 @@ train:
 
 # validation settings
 val:
-  val_freq: !!float 10
+  val_freq: !!float 1000
   save_img: true
 
   key_metric: ssim
@@ -103,7 +103,7 @@ val:
 
 # logging settings
 logger:
-  print_freq: 10
+  print_freq: 1000
   save_checkpoint_freq: !!float 1000
   use_tb_logger: true
 
