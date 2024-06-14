@@ -69,7 +69,7 @@
     python calculate_psnr_ssim.py
     ```
 
-## Pretrain models and visual results
+## Pre-trained models and visual results
 <table>
   <tr>
     <th align="center">Task</th>
