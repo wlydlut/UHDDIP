@@ -21,7 +21,7 @@
 
 1. Please download the following datasets:
 
-| Task | Training datasets | Testing datasets |
+| Task | Training dataset | Testing dataset |
 |:-----: |:-----: |:-----: |
 |UHD LLIE| [UHD_LL](https://drive.google.com/drive/folders/17ppzNdPzLbx0htrBguWpatIXVQDs_v4O) (2000) |[UHD_LL](https://drive.google.com/drive/folders/1CjTvAfXZlbR8V-wIeGquzE1JNULCkqmv) (150)|
 |UHD Desnowing| [UHD_Snow](https://drive.google.com/drive/u/1/folders/1A2bTIqlYATCRdh_BEg8VKXZ3_HojR1Kj?hl=zh_CN) (3000) | [UHD_Snow](https://drive.google.com/drive/u/1/folders/19WyL8lYSNE-TUmOyqMr7JA6PZVtjt_1G?hl=zh_CN) (200)|
