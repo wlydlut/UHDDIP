@@ -108,7 +108,7 @@
 <details>
 <summary><strong>UHD Image LLIE</strong> (click to expand) </summary>
 
-<p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_IILE.png"></p> 
+<p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_LLIE.png"></p> 
 
 </details>
 
