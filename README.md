@@ -7,7 +7,7 @@
 | Google Drive (https://drive.google.com/drive/u/1/folders/1LaQvEBdjH5MwTwkfCZh3UJUGl8mYfvke?hl=zh_CN)) | A total of 3000 pairs for training and 200 pairs for testing. |
 
 ## UHDDIP Framework
-
+![Example](Figs/UHDDIP_.png)
 
 ## Requirements
 - CUDA 10.1 (or later)
