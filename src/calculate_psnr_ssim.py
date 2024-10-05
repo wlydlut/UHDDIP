@@ -8,7 +8,7 @@ device = torch.device('cuda')
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]='0'
 gt_path = '/data/wangliyan/dataset/UHD/testing_set/gt/'
-results_path = '/data/wangliyan/code/mycode/UHD/C2F-DFT-main/Deraining/results_UHDIR_LOL5.6w/testing_set/'
+results_path = '/data/wangliyan/code/mycode/UHD/C2F-DFT-main/Deraining/results_UHDDIP_LLIE/testing_set/'
 
 lpips_fn = lpips.LPIPS(net='alex').to(device)   ###########LPIPS
 
