@@ -33,7 +33,7 @@
 
 ## Training
 
-1. To train UHD IILE model,  modify the path where the UHD-LL dataset (including input, gt, normal) is located in the /src/Options/train_UHDDIP_LLIE.yml, then run
+1. To train UHD LLIE model,  modify the path where the UHD-LL dataset (including input, gt, normal) is located in the /src/Options/train_UHDDIP_LLIE.yml, then run
 
     ```
     cd UHDDIP
