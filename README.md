@@ -27,7 +27,7 @@
 |UHD Desnowing| [UHD-Snow](https://drive.google.com/drive/u/1/folders/1A2bTIqlYATCRdh_BEg8VKXZ3_HojR1Kj?hl=zh_CN) (3000) | [UHD_Snow](https://drive.google.com/drive/u/1/folders/19WyL8lYSNE-TUmOyqMr7JA6PZVtjt_1G?hl=zh_CN) (200)|
 |UHD Deraining| [UHD-Rain](https://drive.google.com/drive/u/1/folders/1mitkdAJoVDgadl_Qtwgp8nvSPeKF3qZD?hl=zh_CN) (3000) | [UHD-Rain](https://drive.google.com/drive/u/1/folders/1mitkdAJoVDgadl_Qtwgp8nvSPeKF3qZD?hl=zh_CN) (200)|
 |UHD Dehazing| [UHD-Haze](https://drive.google.com/drive/folders/1MHOiVJYgdmcQy4fx8lJX93NTqstySi1V) (2290) | [UHD-Haze](https://drive.google.com/drive/folders/1ud2va6qdhG6P9rSHtAjFkB7zowI5EKho) (231)|
-|UHD Deblurring| [UHD-Blur](https://drive.google.com/drive/folders/1FNSXw-Z_JliyaNJow3lYYKkq7nItmMe3) 1964) | [UHD-Blur](https://drive.google.com/drive/folders/1XXdYJ_lg-Xuzwxv6IXmw9_6FGr16-R1s) (300)|
+|UHD Deblurring| [UHD-Blur](https://drive.google.com/drive/folders/1FNSXw-Z_JliyaNJow3lYYKkq7nItmMe3) (1964) | [UHD-Blur](https://drive.google.com/drive/folders/1XXdYJ_lg-Xuzwxv6IXmw9_6FGr16-R1s) (300)|
 
 2. To obtain the normal prior images, all training data and testing data are processed through [Omnidata](https://github.com/EPFL-VILAB/omnidata), and the obtained normal prior images are placed under the same path as the corresponding input image and GT image above.
 
@@ -96,12 +96,12 @@
   <tr>
      <td align="center">UHD Dehazing</td>
     <td align="center"><a href="https://drive.google.com/drive/u/0/folders/1nIsfsqv8znin908k4mxy8YrS6VHJjbqs">Download</a></td>
-    <td align="center"><a href="https://drive.google.com/drive/u/0/folders/15ku_UDp1_5Uht6IZvs8Lol8A4-oJEMiv">Download</a></td>
+    <td align="center"><a href="https://drive.google.com/drive/u/0/folders/1l7SQcW1FK6G4H-8w1NSKlZIGAbSE4acy">Download</a></td>
   </tr>
   <tr>
-     <td align="center">UHD Debluring</td>
+     <td align="center">UHD Deblurring</td>
     <td align="center"><a href="https://drive.google.com/drive/u/0/folders/1QmvOuB13B-SGxyegjrycvzw52BXOTTVi">Download</a></td>
-    <td align="center"><a href="https://drive.google.com/drive/u/0/folders/15ku_UDp1_5Uht6IZvs8Lol8A4-oJEMiv">Download</a></td>
+    <td align="center"><a href="https://drive.google.com/drive/u/0/folders/1pP8s3geM93AyCr9TrXePflfXMtoXjgCY">Download</a></td>
   </tr>
 </table>
 
