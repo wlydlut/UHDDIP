@@ -1,4 +1,4 @@
-# UHDDIP: Ultra-High-Deﬁnition Restoration: New Benchmarks and A Dual Interaction Prior-Driven Solution
+# UHDDIP: Ultra-High-Deﬁnition Image Restoration: New Benchmarks and A Dual Interaction Prior-Driven Solution
 
 ## Our proposed UHD-Snow dataset and UHD-Rain dataset
 ![Example](Figs/mask.png)
@@ -113,6 +113,18 @@
 </details>
 
 <details>
+<summary><strong>UHD Image Dehazing</strong> (click to expand) </summary>
+
+<p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_dehaze.png"></p>
+</details>
+
+<details>
+<summary><strong>UHD Image Deblurring</strong> (click to expand) </summary>
+
+<p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_deblur.png"></p>
+</details>
+
+<details>
 <summary><strong>UHD Image Desnowing</strong> (click to expand) </summary>
 
 <p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_desnow1.png"></p>
@@ -125,4 +137,3 @@
 <p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_derain1.png"></p>
 <p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_derain2.png"></p>
 </details>
-
