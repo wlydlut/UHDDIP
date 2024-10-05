@@ -1,5 +1,5 @@
 #python -m torch.distributed.launch --nproc_per_node=2 --master_port=4321 basicsr/train.py -opt src/Options/train_UHDDIP.yml  --launcher pytorch
-name: UHDDIP_UHDSnow #UHDDIP_UHDRain UHDDIP_UHDHaze
+name: UHDDIP_desnow #UHDDIP_derain UHDDIP_dehaze
 model_type: UHDModel
 scale: 1
 num_gpu: 2 # set num_gpu: 0 for cpu mode
@@ -11,9 +11,9 @@ datasets:
     name: General_Image_Train
     type: Dataset_PairedImage
     ######################################
-    dataroot_gt: /data/wangliyan/dataset/UHD/UHD_Snow/training_set/gt
-    dataroot_lq: /data/wangliyan/dataset/UHD/UHD_Snow/training_set/input
-    dataroot_normal: /data/wangliyan/dataset/UHD/UHD_Snow/training_set/normal
+    dataroot_gt: /data/wangliyan/dataset/UHD/UHD-Snow/training_set/gt
+    dataroot_lq: /data/wangliyan/dataset/UHD/UHD-Snow/training_set/input
+    dataroot_normal: /data/wangliyan/dataset/UHD/UHD-Snow/training_set/normal
     io_backend:
       type: disk
 
@@ -32,9 +32,9 @@ datasets:
   val:
     name: General_Image_Valid
     type: Dataset_PairedImage
-    dataroot_gt: /data/wangliyan/dataset/UHD/UHD_Snow/val/gt
-    dataroot_lq: /data/wangliyan/dataset/UHD/UHD_Snow/val/input
-    dataroot_normal: /data/wangliyan/dataset/UHD/UHD_Snow/val/normal
+    dataroot_gt: /data/wangliyan/dataset/UHD/UHD-Snow/val/gt
+    dataroot_lq: /data/wangliyan/dataset/UHD/UHD-Snow/val/input
+    dataroot_normal: /data/wangliyan/dataset/UHD/UHD-Snow/val/normal
 
     gt_size: 512
     io_backend:
@@ -68,7 +68,7 @@ train:
 
   scheduler:
     type: CosineAnnealingRestartCyclicLR
-    periods: [ 1000, 500000 ]   # UHDSnow/UHDRain/UHDHaze:500000
+    periods: [ 1000, 500000 ]   # UHD-Snow/UHD-Rain/UHD-Haze:500000
     restart_weights: [ 1, 1 ]
     eta_mins: [ 0.0005, 0.0000001 ]
 
