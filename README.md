@@ -127,13 +127,11 @@
 <details>
 <summary><strong>UHD Image Desnowing</strong> (click to expand) </summary>
 
-<p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_desnow1.png"></p>
-<p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_desnow2.png"></p>
+<p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_desnow.png"></p>
 </details>
 
 <details>
 <summary><strong>UHD Image Deraining</strong> (click to expand) </summary>
 
-<p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_derain1.png"></p>
-<p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_derain2.png"></p>
+<p align="center"><img src = "https://github.com/wlydlut/UHDDIP/blob/main/Figs/UHD_derain.png"></p>
 </details>
