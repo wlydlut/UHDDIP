@@ -1,4 +1,7 @@
-# UHDDIP: Ultra-High-Deﬁnition Image Restoration: New Benchmarks and A Dual Interaction Prior-Driven Solution
+# UHDDIP: Ultra-High-Deﬁnition Image Restoration: New Benchmarks and A Dual Interaction Prior-Driven Solution [IEEE TCSVT2025]
+
+## Updates
+[2025-09-18] Our paper is accepted to IEEE TCSVT !
 
 ## Our proposed UHD-Snow dataset and UHD-Rain dataset
 ![Example](Figs/mask.png)
